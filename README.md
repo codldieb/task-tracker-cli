@@ -27,6 +27,8 @@ Tasks are stored in `./task-list.json`, which is created if a task is added whil
 
 In this application, a valid Task ID is considered to be a whole number greater than 0. As such the following types of IDs are considered invalid: `abc`, `0`, `-1`, and `1.5`
 
+## Task Actions/Commands
+
 There are several actions available associated with tasks. 
 Each is listed below along with its requirements and limitations.
 
