@@ -1,5 +1,6 @@
 # Task Tracker CLI
 This is a cli tool to help you keep track of tasks that you need to do.
+Based on the project from roadmap.sh (https://roadmap.sh/projects/task-tracker)
 ## Prerequisites
 - Node version 22 or newer is needed to run this application using the provided commands.
 ## Task Fields
