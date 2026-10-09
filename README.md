@@ -21,10 +21,15 @@ This is a cli tool to help you keep track of tasks that you need to do.
     - This field contains the date time of the creation or last modification of a task (whichever is most recent).
     - At task creation, this is assigned to the current date time.
     - If a task is modified (via `update`, `mark-in-progress`, or `mark-done` commands), then the value is updated to the date time when that command is run.
-There are several actions available associated with tasks. 
+
+
 Tasks are stored in `./task-list.json`, which is created if a task is added while the file doesn't exist.
+
 In this application, a valid Task ID is considered to be a whole number greater than 0. As such the following types of IDs are considered invalid: `abc`, `0`, `-1`, and `1.5`
+
+There are several actions available associated with tasks. 
 Each is listed below along with its requirements and limitations.
+
 - `node index.ts add [Task Description]`
     - This command will add a task to the list with the Task Description provided.
     - Task status will be set to `todo`.
